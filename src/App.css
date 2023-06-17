@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.my-button{
+  background-color: orange;
+  color: red;
+}
+
+ /*-------------- EComerce website --------------*/
+
+ .App{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+ }
+ .header{
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1px 2px 2px #00000033;
+ }
+ .pageContent{
+  display: flex;
+  flex: 1;
+  overflow-y: auto;
+  margin-top: 2px;
+ }
+ .footer{
+  height: 60px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+ }
+ .itemCardImage{
+    height: 150px !important;
+    object-fit: scale-down;
+ }
+ .itemCard, 
+ .itemCardBadge{
+   margin: 8px;
+ }
+ .shoppingCartIcon{
+  font-size: 30px;
+  margin-right: 16px;
+  cursor: pointer;
+ }
+ .menu{
+  border: none;
+ }
+.productsContainer{
+  padding: 8px;
+}
